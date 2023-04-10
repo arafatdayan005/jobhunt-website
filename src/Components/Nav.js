@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 function Nav() {
     return (
-        <nav className="bg-indigo-50 px-48 py-8 flex items-center justify-between">
+        <nav className="bg-indigo-50 bg-opacity-50 px-48 py-8 flex items-center justify-between">
             <h2 className='d font-bold text-2xl'>JobHunt</h2>
             <div>
                 <Link className='font-semibold text-gray-500'>Statictics</Link>
