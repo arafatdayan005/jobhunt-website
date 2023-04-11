@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import img from '../assets/All Images/P3OLGJ1 copy 1.png'
 import { useLoaderData } from 'react-router-dom'
 import CategoryCard from './CategoryCard'
+import JobDetailsCard from './JobDetailsCard'
 
 function Home() {
-  const categoryList = useLoaderData()
+  const jobDetails = useLoaderData()
+  const [categoryList, setCategoryList] = useState([])
+
+  useEffect(() => {
+    fetch("CategoryList.json")
+      .then(res => res.json())
+      .then(data => setCategoryList(data))
+  }, [])
   return (
     <>
       <section className='bg-indigo-50 ps-48 pe-28 pb-0 bg-opacity-50 grid grid-cols-1 lg:grid-cols-2'>
@@ -30,6 +38,21 @@ function Home() {
           </div>
         </div>
       </section>
+      <section className='px-48'>
+        <div>
+          <h1 className='text-5xl font-bold text-center'>Featured Job</h1>
+          <div className='grid lg:grid-cols-2 gap-4'>
+            {
+              jobDetails.map(job => (
+                <JobDetailsCard key={job.id} job={job}></JobDetailsCard>
+              ))
+            }
+          </div>
+        </div>
+      </section>
+      <div className='w-full flex justify-center'>
+        <button className='bg-indigo-400 text-white mx-auto font-semibold px-5 py-3 rounded-lg'>See All Jobs</button>
+      </div>
     </>
   )
 }
