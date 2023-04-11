@@ -15,7 +15,7 @@ function Home() {
   }, [])
   return (
     <>
-      <section className='bg-indigo-50 ps-48 pe-28 pb-0 bg-opacity-50 grid grid-cols-1 lg:grid-cols-2'>
+      <section className='bg-indigo-50 bg-opacity-50 ps-48 pe-28 pb-0  grid grid-cols-1 lg:grid-cols-2'>
         <div className='my-auto'>
           <h1 className='text-7xl font-bold'>One Step</h1>
           <h1 className='text-7xl font-bold my-3'>Closer To Your</h1>

@@ -1,6 +1,7 @@
 import React from 'react'
 import icon1 from '../assets/Icons/Frame-4.png'
 import icon2 from '../assets/Icons/Frame.png'
+import { Link } from 'react-router-dom';
 
 function JobDetailsCard({ job }) {
   const { id, name, logo, title, timing, type, salary, location } = job;
@@ -19,7 +20,10 @@ function JobDetailsCard({ job }) {
         <img src={icon2} className='ps-4 pe-2' alt="" />
         <p className='text-gray-400 font-semibold text-xl'>{salary}</p>
       </div>
-      <button className='bg-indigo-400 text-white mx-auto font-semibold px-5 py-3 rounded-lg'>View Details</button>
+      <Link to={`/details/${id}`}>
+        <button className='bg-indigo-400 text-white mx-auto font-semibold px-5 py-3 rounded-lg'>View Details</button>
+      </Link>
+      
     </div>
   )
 }
