@@ -4,14 +4,19 @@ import icon2 from '../assets/Icons/Frame.png'
 import icon3 from '../assets/Icons/Frame-2.png'
 import icon4 from '../assets/Icons/Frame-3.png'
 import icon5 from '../assets/Icons/Frame-4.png'
-import { useLoaderData, useParams } from 'react-router-dom'
+import { Link, useLoaderData, useParams } from 'react-router-dom'
+import { addToDb } from '../utilities/fakedb'
 
 function Details() {
     const data = useLoaderData()
-    const id = useParams()
+    const jobId = useParams()
 
-    const details = data.find(data => data.id === id.id)
-    const { title, salary, location, description, responsibility, requirements, experiences, phone, email } = details;
+    const details = data.find(data => data.id === jobId.id)
+    const { id, title, salary, location, description, responsibility, requirements, experiences, phone, email } = details;
+
+    function handleAddDB(id) {
+        addToDb(id)
+    }
 
     return (
         <>
@@ -54,9 +59,10 @@ function Details() {
                             <p><span className='ps-2 font-medium'>Address:</span><span className='text-gray-500'> {location}</span></p>
                         </div>
                     </div>
-                    <button className='bg-indigo-400 text-white font-semibold px-5 py-3 rounded-lg w-full my-6'>Apply Now</button>
+                    <Link to={'/appliedjobs'}>
+                        <button className='bg-indigo-400 text-white font-semibold px-5 py-3 rounded-lg w-full my-6' onClick={() => handleAddDB(id)}>Apply Now</button>
+                    </Link>
                 </div>
-
             </div>
         </>
     )
