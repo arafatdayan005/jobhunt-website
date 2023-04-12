@@ -20,7 +20,7 @@ function JobDetailsCard({ job }) {
         <img src={icon2} className='ps-4 pe-2' alt="" />
         <p className='text-gray-400 font-semibold text-xl'>{salary}</p>
       </div>
-      <Link to={`/details/${id}`}>
+      <Link to={`/job/${id}`}>
         <button className='bg-indigo-400 text-white mx-auto font-semibold px-5 py-3 rounded-lg'>View Details</button>
       </Link>
       

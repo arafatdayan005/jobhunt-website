@@ -5,35 +5,35 @@ function Statictics() {
   const resultArr = [
     {
       name: '1',
-      uv: 57
+      marks: 57
     },
     {
       name: ' 2',
-      uv: 57
+      marks: 57
     },
     {
       name: '3',
-      uv: 60
+      marks: 60
     },
     {
       name: '4',
-      uv: 53
+      marks: 53
     },
     {
       name: '5',
-      uv: 51
+      marks: 51
     },
     {
       name: '6',
-      uv: 57
+      marks: 57
     },
     {
       name: '7',
-      uv: 60
+      marks: 60
     },
     {
       name: '8',
-      uv: 60
+      marks: 60
     },
   ];
   return (
@@ -58,7 +58,7 @@ function Statictics() {
           <XAxis dataKey="name" />
           <YAxis />
           <Tooltip />
-          <Area type="monotone" dataKey="uv" stroke="#8884d8" fill="#8884d8" />
+          <Area type="monotone" dataKey="marks" stroke="#8884d8" fill="#8884d8" />
         </AreaChart>
         <p className='font-medium text-xl'>Avg: 56.88</p>
       </div>
