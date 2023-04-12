@@ -7,6 +7,11 @@ import JobDetailsCard from './JobDetailsCard'
 function Home() {
   const jobDetails = useLoaderData()
   const [categoryList, setCategoryList] = useState([])
+  const [seeAll, setSeeAll] = useState(false)
+
+  function seeAllCard(){
+    setSeeAll(true)
+  }
 
   useEffect(() => {
     fetch("CategoryList.json")
@@ -43,7 +48,7 @@ function Home() {
           <h1 className='text-5xl font-bold text-center'>Featured Job</h1>
           <div className='grid lg:grid-cols-2 gap-4'>
             {
-              jobDetails.map(job => (
+              jobDetails.slice(0, seeAll ? 6 : 4).map(job => (
                 <JobDetailsCard key={job.id} job={job}></JobDetailsCard>
               ))
             }
@@ -51,7 +56,7 @@ function Home() {
         </div>
       </section>
       <div className='w-full flex justify-center'>
-        <button className='bg-indigo-400 text-white mx-auto font-semibold px-5 py-3 rounded-lg'>See All Jobs</button>
+        <button className='bg-indigo-400 text-white mx-auto font-semibold px-5 py-3 rounded-lg' onClick={seeAllCard}>See All Jobs</button>
       </div>
     </>
   )
