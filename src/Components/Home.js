@@ -46,7 +46,7 @@ function Home() {
       <section className='px-48'>
         <div>
           <h1 className='text-5xl font-bold text-center'>Featured Job</h1>
-          <div className='grid lg:grid-cols-2 gap-4'>
+          <div className='grid lg:grid-cols-2 gap-4 my-8'>
             {
               jobDetails.slice(0, seeAll ? 6 : 4).map(job => (
                 <JobDetailsCard key={job.id} job={job}></JobDetailsCard>

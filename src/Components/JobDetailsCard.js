@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 function JobDetailsCard({ job }) {
   const { id, name, logo, title, timing, type, salary, location } = job;
   return (
-    <div className='border p-10 rounded-lg my-8'>
+    <div className='border p-10 rounded-lg'>
       <img src={logo} className='h-10' alt="" />
       <p className='font-bold text-gray-600 pt-6 text-2xl'>{title}</p>
       <p className='text-gray-400 py-4 font-semibold text-xl'>{name}</p>

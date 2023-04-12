@@ -1,3 +1,14 @@
+# Job Hunt Project
+- Homepage includes some job listings
+- View Details button shows all the detail information of that particular job
+- See more button shows all the jobs that are available
+- Apply button saves the data to local storage
+- Applied Jobs page shows all the Jobs that are Applied
+- Blogs shows some question related to react
+- Statictics shows a bar chart
+
+Live Website link: https://jade-froyo-f162a9.netlify.app/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
