@@ -7,9 +7,9 @@ function AppliedJobsCard({ jobs }) {
     const { id, name, logo, title, timing, type, salary, location } = jobs;
     return (
         <>
-            <div className='border rounded-lg p-8 flex mb-8'>
-                <div className='bg-indigo-50 bg-opacity-50 rounded-lg flex items-center px-14'>
-                    <img src={logo} className='h-12 w-44' alt="" />
+            <div className='border border-indigo-200 rounded-lg p-8 flex mb-8'>
+                <div className='bg-indigo-50 bg-opacity-50 w-[25%] rounded-lg flex items-center justify-center px-12'>
+                    <img src={logo} className='h-16' alt="" />
                 </div>
                 <div className='flex justify-between items-center w-full px-6'>
                     <div>
@@ -26,8 +26,8 @@ function AppliedJobsCard({ jobs }) {
                             <p className='text-gray-400 font-semibold text-lg'>{salary}</p>
                         </div>
                     </div>
-                    <Link to={`/details/${id}`}>
-                        <button className='bg-indigo-400 text-white mx-auto font-semibold px-5 py-3 rounded-lg'>View Details</button>
+                    <Link to={`/job/${id}`}>
+                        <button className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white mx-auto font-semibold px-5 py-3 rounded-lg'>View Details</button>
                     </Link>
                 </div>
             </div>

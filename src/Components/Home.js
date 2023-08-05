@@ -9,7 +9,7 @@ function Home() {
   const [categoryList, setCategoryList] = useState([])
   const [seeAll, setSeeAll] = useState(false)
 
-  function seeAllCard(){
+  function seeAllCard() {
     setSeeAll(true)
   }
 
@@ -20,17 +20,20 @@ function Home() {
   }, [])
   return (
     <>
-      <section className='bg-indigo-50 bg-opacity-50 ps-48 pe-28 pb-0  grid grid-cols-1 lg:grid-cols-2'>
-        <div className='my-auto'>
-          <h1 className='text-7xl font-bold'>One Step</h1>
-          <h1 className='text-7xl font-bold my-3'>Closer To Your</h1>
-          <h1 className='text-7xl font-bold text-indigo-400'>Dream Job</h1>
-          <p className='text-gray-500 my-6'>Explore thousands of job opportunities with all the information <br /> you need. Its your future. Come find it. Manage all your job <br /> application from start to finish.</p>
-          <button className='bg-indigo-400 text-white font-semibold px-5 py-3 rounded-lg'>Get Started</button>
+      <section className='bg-gradient-to-r from-[#7e8ffe1a] to-[#9873ff1a] pb-0 w-full'>
+        <div className='grid grid-cols-1 lg:grid-cols-2 w-[75%] mx-auto space-x-16'>
+          <div className='my-auto'>
+            <h1 className='text-7xl font-bold'>One Step</h1>
+            <h1 className='text-7xl font-bold my-3'>Closer To Your</h1>
+            <h1 className='text-7xl font-bold bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] bg-clip-text text-transparent'>Dream Job</h1>
+            <p className='text-gray-500 my-6'>Explore thousands of job opportunities with all the information <br /> you need. Its your future. Come find it. Manage all your job <br /> application from start to finish.</p>
+            <button className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white font-semibold px-5 py-3 rounded-lg'>Get Started</button>
+          </div>
+          <img src={img} className='h-full' alt="" />
         </div>
-        <img src={img} className='h-full' alt="" />
+
       </section>
-      <section className='px-48 py-28'>
+      <section className='w-[75%] mx-auto my-28'>
         <div>
           <h1 className='text-5xl font-bold text-center'>Job Category List</h1>
           <p className='text-gray-500 my-6 text-center'>Explore thousands of job opportunities with all the information you need. Its your future</p>
@@ -43,7 +46,7 @@ function Home() {
           </div>
         </div>
       </section>
-      <section className='px-48'>
+      <section className='w-[75%] mx-auto'>
         <div>
           <h1 className='text-5xl font-bold text-center'>Featured Job</h1>
           <div className='grid lg:grid-cols-2 gap-4 my-8'>
@@ -56,7 +59,7 @@ function Home() {
         </div>
       </section>
       <div className='w-full flex justify-center'>
-        <button className='bg-indigo-400 text-white mx-auto font-semibold px-5 py-3 rounded-lg' onClick={seeAllCard}>See All Jobs</button>
+        <button className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white mx-auto font-semibold px-5 py-3 rounded-lg' onClick={seeAllCard}>See All Jobs</button>
       </div>
     </>
   )

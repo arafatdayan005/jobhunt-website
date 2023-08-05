@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import icon1 from '../assets/Icons/Frame-1.png'
 import icon2 from '../assets/Icons/Frame.png'
 import icon3 from '../assets/Icons/Frame-2.png'
@@ -18,9 +18,13 @@ function Details() {
         addToDb(id)
     }
 
+    useEffect(() => {
+        window.scrollTo(0,0)
+    }, [])
+
     return (
         <>
-            <div className='bg-indigo-50 bg-opacity-50 pb-28 pt-12 text-center'>
+            <div className='bg-gradient-to-r from-[#7e8ffe1a] to-[#9873ff1a] pb-28 pt-12 text-center'>
                 <h3 className='font-bold text-3xl'>Job Details</h3>
             </div>
             <div className='px-48 py-28 grid grid-cols-1 lg:grid-cols-3 gap-4'>
@@ -33,7 +37,7 @@ function Details() {
                     <p className='text-gray-500 font-medium my-6'> {experiences} </p>
                 </div>
                 <div className='col-span-1'>
-                    <div className='bg-indigo-100 bg-opacity-70 p-8 rounded-lg'>
+                    <div className='bg-gradient-to-r from-[#7e8ffe30] to-[#9873ff30] p-8 rounded-lg'>
                         <h1 className='font-bold'>Job Details</h1>
                         <hr className='border-t border-indigo-200 border-opacity-70 my-4'></hr>
                         <div className='flex'>
@@ -60,7 +64,7 @@ function Details() {
                         </div>
                     </div>
                     <Link to={'/appliedjobs'}>
-                        <button className='bg-indigo-400 text-white font-semibold px-5 py-3 rounded-lg w-full my-6' onClick={() => handleAddDB(id)}>Apply Now</button>
+                        <button className='bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] text-white font-semibold px-5 py-3 rounded-lg w-full my-6' onClick={() => handleAddDB(id)}>Apply Now</button>
                     </Link>
                 </div>
             </div>

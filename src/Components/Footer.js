@@ -6,8 +6,8 @@ function Footer() {
     <div className='bg-black mt-8 px-48 py-28'>
       <div className='grid grid-cols-6 gap-8'>
         <div className='col-span-2 text-white'>
-          <h3 className='mb-6 text-3xl font-semibold'>Job Hunt</h3>
-          <p>There are many variations of passages of Lorem Ipsum , but the majority have suffered alteration in some form.</p>
+          <h3 className='mb-6 text-3xl font-bold bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] bg-clip-text text-transparent'>JobHuntBD</h3>
+          <p>There are many ways you can get a decent job in BD, but the majority companies relies on JobhuntBD.</p>
           <img src={icon} className='mt-4' alt="" />
         </div>
         <div className='col-span-1 text-white'>
@@ -39,8 +39,8 @@ function Footer() {
       </div>
       <hr className='border-t border-gray-50 border-opacity-40 my-14'></hr>
       <div className='flex justify-between text-gray-500'>
-        <p>@2023 JobHunt. All Rights Reserved</p>
-        <p>Powered by JobHunt</p>
+        <p>@2023 JobHuntBD. All Rights Reserved</p>
+        <p>Powered by JobHuntBD</p>
       </div>
     </div>
   )

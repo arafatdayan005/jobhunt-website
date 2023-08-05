@@ -6,7 +6,6 @@ import reportWebVitals from './reportWebVitals';
 import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 import Home from './Components/Home';
 import Details from './Components/Details';
-import Statictics from './Components/Statictics';
 import AppliedJobs from './Components/AppliedJobs';
 import Blog from './Components/Blog';
 import ErrorPage from './Components/ErrorPage';
@@ -26,10 +25,6 @@ const router = createBrowserRouter([
         path: '/home',
         element: <Home></Home>,
         loader: () => fetch('/Jobdetails.json')
-      },
-      {
-        path: '/statictics',
-        element: <Statictics></Statictics>,
       },
       {
         path: '/appliedjobs',
