@@ -13,7 +13,7 @@ function JobDetailsCard({ job }) {
     addToDb(id)
     Swal.fire(
       'Applied!',
-      'You successfully applied to this job!',
+      'Visit Applied Jobs page to see details and start quiz!',
       'success'
     )
     setApplied(true)

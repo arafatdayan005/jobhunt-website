@@ -14,7 +14,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]        
     },
     {
         "id": "2",
@@ -31,7 +123,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "3",
@@ -48,7 +232,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "4",
@@ -65,7 +341,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "5",
@@ -82,7 +450,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "6",
@@ -99,7 +559,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "7",
@@ -116,7 +668,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "8",
@@ -133,7 +777,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "9",
@@ -150,7 +886,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "10",
@@ -167,7 +995,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "11",
@@ -184,7 +1104,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "12",
@@ -201,7 +1213,99 @@
         "requirements": "Bachelor degree to complete any reputational university.",
         "experiences": "2-3 Years in this field.",
         "phone": "01750-00 00 00",
-        "email": "arafatdayan005@github.io"
+        "email": "arafatdayan005@github.io",
+        "quiz": [
+            {
+                "serial" : 1,
+                "ques" : "What is an API in programming?",
+                "op1" : "A Programming Language",
+                "op2" : "Apps Provided Instruction",
+                "op3" : "Application Programming Interface",
+                "op4" : "App Program Information",
+                "ans" : "Application Programming Interface"
+            },
+            {
+                "serial" : 2,
+                "ques" : "What is GIT in programming?",
+                "op1" : "A type of loop",
+                "op2" : "A Javascript function",
+                "op3" : "An Integrated Development Environment",
+                "op4" : "A Version Control System",
+                "ans" : "A Version Control System"
+            },
+            {
+                "serial" : 3,
+                "ques" : "What is an Object in Javascript?",
+                "op1" : "A Function that performs task",
+                "op2" : "A class with properties and method",
+                "op3" : "A way to organize code",
+                "op4" : "A nested function",
+                "ans" : "A class with properties and method"
+            },
+            {
+                "serial" : 4,
+                "ques" : "Which programming language is used for web?",
+                "op1" : "C++",
+                "op2" : "Javascript",
+                "op3" : "Python",
+                "op4" : "Java",
+                "ans" : "Javascript"
+            },
+            {
+                "serial" : 5,
+                "ques" : "What is Closure in Javascript?",
+                "op1" : "An anonymous function",
+                "op2" : "An object with multiple properties",
+                "op3" : "A function that call another function",
+                "op4" : "A class that has access to variables",
+                "ans" : "A class that has access to variables"
+            },
+            {
+                "serial": 6,
+                "ques": "Which computer key is typically used to confirm a selection?",
+                "op1": "Spacebar",
+                "op2": "Enter",
+                "op3": "Shift",
+                "op4": "Tab",
+                "ans": "Enter"
+            },
+            {
+                "serial": 7,
+                "ques": "Which type of software allows you to browse the internet?",
+                "op1": "Word Processor",
+                "op2": "Web Browser",
+                "op3": "Antivirus",
+                "op4": "Media Player",
+                "ans": "Web Browser"
+            },
+            {
+                "serial": 8,
+                "ques": "What does 'CPU' stand for in a computer?",
+                "op1": "Central Processing Unit",
+                "op2": "Computer Power Unit",
+                "op3": "Central Printer Unit",
+                "op4": "Central Program Unit",
+                "ans": "Central Processing Unit"
+            },
+            {
+                "serial": 9,
+                "ques": "Which company developed the Windows operating system?",
+                "op1": "Apple",
+                "op2": "Microsoft",
+                "op3": "Google",
+                "op4": "IBM",
+                "ans": "Microsoft"
+            },
+            {
+                "serial": 10,
+                "ques": "What does 'URL' stand for in the context of a web address?",
+                "op1": "Uniform Resource Locator",
+                "op2": "Universal Registration Link",
+                "op3": "User Recognition Language",
+                "op4": "Unique Routing Label",
+                "ans": "Uniform Resource Locator"
+            }
+        ]
     },
     {
         "id": "13",

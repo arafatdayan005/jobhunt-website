@@ -5,18 +5,14 @@ import icon3 from '../assets/Icons/Frame-2.png'
 import icon4 from '../assets/Icons/Frame-3.png'
 import icon5 from '../assets/Icons/Frame-4.png'
 import { Link, useLoaderData, useParams } from 'react-router-dom'
-import { addToDb } from '../utilities/fakedb'
 
 function Details() {
     const data = useLoaderData()
     const jobId = useParams()
+    console.log(jobId)
 
     const details = data.find(data => data.id === jobId.id)
-    const { id, title, salary, location, description, responsibility, requirements, experiences, phone, email } = details;
-
-    function handleAddDB(id) {
-        addToDb(id)
-    }
+    const { id, logo, title, salary, location, description, responsibility, requirements, experiences, phone, email } = details;
 
     useEffect(() => {
         window.scrollTo(0,0)
@@ -29,6 +25,9 @@ function Details() {
             </div>
             <div className='px-48 py-28 grid grid-cols-1 lg:grid-cols-3 gap-4'>
                 <div className='col-span-2'>
+                    <div className='w-full'>
+                        <img src={logo} alt="" className='h-20 mx-auto mb-8'/>
+                    </div>
                     <p><span className='font-bold'>Job Description:</span> <span className='text-gray-500 font-medium'> {description} </span></p>
                     <p className='my-6'><span className='font-bold'>Job Responsibility:</span> <span className='text-gray-500 font-medium'> {responsibility} </span></p>
                     <p className='font-bold'>Educational Requirement:</p>
@@ -42,11 +41,11 @@ function Details() {
                         <hr className='border-t border-indigo-200 border-opacity-70 my-4'></hr>
                         <div className='flex'>
                             <img src={icon2} alt="" />
-                            <p><span className='ps-2 font-medium'>Salary:</span><span className='text-gray-500'> {salary} (Per Month)</span></p>
+                            <p><span className='ps-2 font-medium'>Salary:</span><span className='text-gray-500 font-semibold'> {salary} (Per Month)</span></p>
                         </div>
                         <div className='flex mt-4 my-4'>
                             <img src={icon1} alt="" />
-                            <p><span className='ps-2 font-medium'>Job Title:</span><span className='text-gray-500'> {title}</span></p>
+                            <p><span className='ps-2 font-medium'>Job Title:</span><span className='text-gray-500 font-semibold'> {title}</span></p>
                         </div>
                         <h1 className='font-bold pt-2'>Contact Information</h1>
                         <hr className='border-t border-indigo-200 border-opacity-80 my-4'></hr>
@@ -63,8 +62,8 @@ function Details() {
                             <p><span className='ps-2 font-medium'>Address:</span><span className='text-gray-500'> {location}</span></p>
                         </div>
                     </div>
-                    <Link to={'/appliedjobs'}>
-                        <button className='bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] text-white font-semibold px-5 py-3 rounded-lg w-full my-6' onClick={() => handleAddDB(id)}>Apply Now</button>
+                    <Link to={`/quiz/${id}`}>
+                        <button className='bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] text-white font-semibold px-5 py-3 rounded-lg w-full my-6'>Start Quiz</button>
                     </Link>
                 </div>
             </div>
