@@ -7,7 +7,7 @@ function AppliedJobsCard({ jobs }) {
     const { id, name, logo, title, timing, type, salary, location } = jobs;
     return (
         <>
-            <div className='border border-indigo-200 rounded-lg p-8 flex mb-8'>
+            <div data-aos="fade-up" data-aos-duration="1000" className='border border-indigo-200 rounded-lg p-8 flex mb-8'>
                 <div className='bg-indigo-50 bg-opacity-50 w-[25%] rounded-lg flex items-center justify-center px-12'>
                     <img src={logo} className='h-16' alt="" />
                 </div>
@@ -27,7 +27,7 @@ function AppliedJobsCard({ jobs }) {
                         </div>
                     </div>
                     <Link to={`/job/${id}`}>
-                        <button className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white mx-auto font-semibold px-5 py-3 rounded-lg'>View Details</button>
+                        <button className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white mx-auto font-semibold px-5 py-3 rounded-lg hover:scale-110 duration-300 hover:cursor-pointer'>View Details</button>
                     </Link>
                 </div>
             </div>

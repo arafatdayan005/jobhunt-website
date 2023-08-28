@@ -3,56 +3,56 @@
         "id": "1",
         "name": "Accounts & Finance",
         "img": "accounts 1.png",
-        "jobs": 300,
+        "jobs": 12,
         "category": "Accounting"
     },
     {
         "id": "2",
         "name": "Engineering",
         "img": "chip 1.png",
-        "jobs": 200,
+        "jobs": 6,
         "category": "Engineering"
     },
     {
         "id": "3",
         "name": "Marketing & Sale",
         "img": "social-media 1.png",
-        "jobs": 150,
+        "jobs": 0,
         "category": "Marketing"
     },
     {
         "id": "4",
         "name": "Creative Design",
         "img": "business 1.png",
-        "jobs": 100,
+        "jobs": 0,
         "category": "Designing"
     },
     {
         "id": "5",
         "name": "Teaching",
         "img": "social-media 1.png",
-        "jobs": 150,
+        "jobs": 12,
         "category": "Teaching"
     },   
     {
         "id": "6",
         "name": "Electrical & Electronics",
         "img": "business 1.png",
-        "jobs": 100,
+        "jobs": 0,
         "category": "Electrical"
     },
     {
         "id": "7",
         "name": "Medical & Clinic",
         "img": "accounts 1.png",
-        "jobs": 300,
+        "jobs": 12,
         "category": "Medical"
     },
     {
         "id": "8",
         "name": "Government",
         "img": "chip 1.png",
-        "jobs": 200,
-        "category":"Governmental"
+        "jobs": 12,
+        "category":"Government"
     }
 ]

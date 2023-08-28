@@ -24,7 +24,7 @@ function Details() {
                 <h3 className='font-bold text-3xl'>Job Details</h3>
             </div>
             <div className='px-48 py-28 grid grid-cols-1 lg:grid-cols-3 gap-4'>
-                <div className='col-span-2'>
+                <div data-aos="fade-right" data-aos-duration="1000" className='col-span-2'>
                     <div className='w-full'>
                         <img src={logo} alt="" className='h-20 mx-auto mb-8'/>
                     </div>
@@ -35,8 +35,8 @@ function Details() {
                     <p className='font-bold'>Experiences:</p>
                     <p className='text-gray-500 font-medium my-6'> {experiences} </p>
                 </div>
-                <div className='col-span-1'>
-                    <div className='bg-gradient-to-r from-[#7e8ffe30] to-[#9873ff30] p-8 rounded-lg'>
+                <div data-aos="fade-left" data-aos-duration="1000" className='col-span-1'>
+                    <div  className='bg-gradient-to-r from-[#7e8ffe30] to-[#9873ff30] p-8 rounded-lg'>
                         <h1 className='font-bold'>Job Details</h1>
                         <hr className='border-t border-indigo-200 border-opacity-70 my-4'></hr>
                         <div className='flex'>
@@ -63,7 +63,7 @@ function Details() {
                         </div>
                     </div>
                     <Link to={`/quiz/${id}`}>
-                        <button className='bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] text-white font-semibold px-5 py-3 rounded-lg w-full my-6'>Start Quiz</button>
+                        <button className='bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] text-white font-semibold px-5 py-3 rounded-lg w-full my-6 hover:scale-110 duration-300 hover:cursor-pointer'>Start Quiz</button>
                     </Link>
                 </div>
             </div>

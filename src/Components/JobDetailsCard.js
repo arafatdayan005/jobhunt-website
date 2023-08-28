@@ -20,7 +20,7 @@ function JobDetailsCard({ job }) {
   }
 
   return (
-    <div className='border border-indigo-200 p-10 rounded-lg'>
+    <div data-aos="fade-up" data-aos-duration="1000" className='border border-indigo-200 p-10 rounded-lg'>
       <img src={logo} className='h-12' alt="" />
       <p className='font-bold text-gray-600 pt-6 text-2xl'>{title}</p>
       <p className='text-gray-400 py-4 font-semibold text-xl'>{name}</p>
@@ -34,7 +34,7 @@ function JobDetailsCard({ job }) {
         <img src={icon2} className='ps-4 pe-2' alt="" />
         <p className='text-gray-400 font-semibold text-xl'>{salary}</p>
       </div>
-      <button onClick={() => handleAddDB(id)} disabled={applied} className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white ms-auto font-semibold w-28 py-3 rounded-lg'> {applied ? <TiTick className='w-full text-2xl' /> : "Apply"} </button>
+      <button onClick={() => handleAddDB(id)} disabled={applied} className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white ms-auto font-semibold w-28 py-3 rounded-lg hover:scale-110 duration-300 hover:cursor-pointer'> {applied ? <TiTick className='w-full text-2xl' /> : "Apply"} </button>
     </div>
   )
 }

@@ -102,7 +102,7 @@ function Quiz() {
                     <p className='text-center bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] bg-clip-text text-transparent font-bold text-4xl'>QUIZ</p>
                 </div>
                 <Link to={'/home'}>
-                    <button className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white font-semibold px-5 py-3 rounded-lg'>
+                    <button className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white font-semibold px-5 py-3 rounded-lg hover:scale-110 duration-300 hover:cursor-pointer'>
                         Exit Quiz
                     </button>
                 </Link>
@@ -121,10 +121,10 @@ function Quiz() {
                     }
                 </div>
                 <div className='col-span-1'>
-                    <div className='border border-[#7E90FE] p-8 rounded-lg sticky top-[25%]'>
+                    <div data-aos="zoom-in" data-aos-duration="1000" className='border border-[#7E90FE] p-8 rounded-lg sticky top-[25%]'>
                         <h1 className='bg-gradient-to-r from-[#7e8ffe] to-[#9873ff] bg-clip-text text-transparent font-bold text-xl text-center'>Time Remaining</h1>
                         <p className='text-center font-bold text-7xl mb-12 mt-8'>{minutes}:{seconds < 10 ? `0${seconds}` : seconds}</p>
-                        <button disabled={submit} onClick={handleSubmit} className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white font-semibold px-5 py-3 rounded-lg w-full disabled:opacity-70'>Submit</button>
+                        <button disabled={submit} onClick={handleSubmit} className='bg-gradient-to-r from-[#7E90FE] to-[#9873FF] text-white font-semibold px-5 py-3 rounded-lg w-full disabled:opacity-70 hover:scale-110 duration-300 hover:cursor-pointer'>Submit</button>
                     </div>
                 </div>
             </div>
